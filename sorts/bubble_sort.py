@@ -2,7 +2,7 @@
 
 # bubble sort
 
-__author__ = 'vanzann'
+__author__ = 'leasynoth'
 __email__ = 'nordiccatinc@gmail.com'
 __DATE__ = '24.01.2019'
 
