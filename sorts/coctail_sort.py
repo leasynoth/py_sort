@@ -72,6 +72,10 @@ def coctailSort(data=defaultData, way=0):
                 iMin += 1            
         
             count += 1
+    
+    else:
+        
+        print('The second argument indicates the sort order: 0 - in descending order, 1 - in ascending order.')        
             
     endTime = time.time()
     
@@ -88,19 +92,19 @@ def main():
     randData = list(range(rand.randint(9000, 9000)))
     rand.shuffle(randData) 
     
-    print('Default data: \n' + str(randData) + '\n')
+    #print('Default data: \n' + str(randData) + '\n')
     
     descend = coctailSort(randData, 0)
-    
-    print('Coctail sorting in descending order: \n' + str(descend))
+
+    #print('Coctail sorting in descending order: \n' + str(descend))
     
     rand.shuffle(randData)
     
-    print('Default data: \n' + str(randData) + '\n')
+    #print('Default data: \n' + str(randData) + '\n')
     
     ascend = coctailSort(randData, 1)
     
-    print('Coctail sorting in ascending order: \n' + str(ascend))
+    #print('Coctail sorting in ascending order: \n' + str(ascend))
     
     
 if __name__ == '__main__':
