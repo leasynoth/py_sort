@@ -1,13 +1,18 @@
 # -*- coding: utf-8 -*-
 
-# bubble sort
-
 __author__ = 'leasynoth'
 __email__ = 'nordiccatsinc@gmail.com'
 __DATE__ = '24.01.2019'
 
+'''
+
+    Bubble sort
+
+'''
+
 import random as rand
 import time
+
 
 defaultData = [12, 3123234, 234, 2341, 334344, 14421212, 324345, 4, 12323]
 
@@ -29,7 +34,7 @@ def bubbleSort(data=defaultData, way=0):
                     
             count += 1
         
-    elif(way == 1): # in ascending order
+    elif (way == 1): # in ascending order
         
         count = 1
         
@@ -76,7 +81,6 @@ def main():
     #print('Bubble sorting in ascending order: \n' + str(ascend))
     
 
-        
 if __name__ == '__main__':
     
     main()        

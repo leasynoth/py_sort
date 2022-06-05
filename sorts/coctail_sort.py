@@ -1,15 +1,19 @@
 # -*- coding: utf-8 -*-
 
-# coctail sort
-
 __author__ = 'leasynoth'
 __email__ = 'nordiccastinc@gmail.com'
 __DATE__ = '29.01.2019'
 
+'''
+
+    Coctail sort
+
+'''
+
 import random as rand
 import time
 
-#defaultData = [232, 57, 3, 36, 123, 2356, 0, 123, 4595, 12356, 45, 985]
+
 defaultData = [12, 3123234, 234, 2341, 334344, 14421212, 324345, 4, 12323] 
 
 def coctailSort(data=defaultData, way=0): 

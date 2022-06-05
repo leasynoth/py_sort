@@ -1,9 +1,17 @@
 # -*- coding: utf-8 -*-
 
-# Insertion sorting
+__author__ = 'leasynoth'
+__email__ = 'nordiccatsinc@gmail.com'
+__DATE__ = '15.02.2019'
 
-import time
+'''
+
+    Insertion sort
+    
+'''
+
 import random as rand
+import time
 
 
 defaultData = [12, 3123234, 234, 2341, 334344, 14421212, 324345, 4, 12323]
